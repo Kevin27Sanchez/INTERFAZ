@@ -1,0 +1,41 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.block{
+    width: 50%;
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.block-1{
+    background: red;
+}
+.block-2{
+    background: green;
+    }
+.block-3{
+    background: blue;
+}
+.block-4{
+    background: pink;
+}
+.block-5{
+    background: rgb(0, 255, 191);
+}
+.block-6{
+    background: rgb(255, 251, 0);
+}
+.block-7{
+    background: rgb(0, 119, 255);
+}
